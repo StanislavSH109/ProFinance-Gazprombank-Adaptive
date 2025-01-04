@@ -1,4 +1,4 @@
-<h1 align="center">ProFinance Gazpromban Adaptive-Layout </h1>
+<h1 align="center">ProFinance Gazprombank Adaptive-Layout </h1>
 <ul>
   <li>The layout is adapted to all resolutions and confirmed in the layout.</li>
   <li>Raster images are prepared for screens with a pixel density of 2x.</li>
