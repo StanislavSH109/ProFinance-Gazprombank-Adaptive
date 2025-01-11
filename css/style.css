@@ -394,6 +394,12 @@ a {
   padding: 12px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+@media (max-width: 1439px) {
+  .header__top {
+    padding: unset;
+    border-bottom: unset;
+  }
+}
 .header__list {
   display: flex;
   flex-wrap: wrap;
@@ -422,6 +428,16 @@ a {
 }
 .header__logo {
   flex-shrink: 0;
+  width: 170px;
+  height: 36px;
+}
+@media (max-width: 1439px) {
+  .header__logo {
+    display: none;
+  }
+}
+.header__logo-small {
+  display: none;
 }
 .header__buttons {
   display: flex;

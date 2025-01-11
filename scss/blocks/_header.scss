@@ -4,6 +4,11 @@
   &__top {
     padding: 12px 0;
     border-bottom: 1px solid $color-white-alpha-20;
+
+    @include vp-1439 {
+      padding: unset;
+      border-bottom: unset;
+    }
   }
 
   &__list {
@@ -35,8 +40,17 @@
   }
 
   &__logo {
-
     flex-shrink: 0;
+    width: 170px;
+    height: 36px;
+
+    @include vp-1439 {
+      display: none;
+    }
+  }
+
+  &__logo-small {
+    display: none;;
   }
 
   &__buttons {
