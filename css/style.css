@@ -402,6 +402,11 @@ a {
   padding: 0;
   list-style-type: none;
 }
+@media (max-width: 1439px) {
+  .header__list {
+    display: none;
+  }
+}
 .header__link {
   display: block;
   color: #FFFFFF;
