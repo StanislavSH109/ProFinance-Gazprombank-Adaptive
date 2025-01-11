@@ -9,7 +9,8 @@
 
     @include vp-1439 {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: 185px 204px 220px;
+      gap: 16px 50px;
     }
   }
 

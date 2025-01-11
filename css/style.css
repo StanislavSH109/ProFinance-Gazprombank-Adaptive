@@ -531,7 +531,8 @@ a {
 @media (max-width: 1439px) {
   .categories__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 185px 204px 220px;
+    gap: 16px 50px;
   }
 }
 .categories__link {
@@ -640,6 +641,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
 }
 .sidebar__heading {
