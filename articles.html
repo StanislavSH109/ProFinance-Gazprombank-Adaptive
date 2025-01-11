@@ -49,13 +49,20 @@
           </svg>
         </a>
         <a class="header__logo-small" href="#" aria-label="Вернуться на главную страницу">
-          <img class="header__image-small" width="36" height="36" src="images/logo-small.svg" alt="Логотип Газпромбанк">
+          <svg class="header__image-small">
+            <use xlink:href="images/sprite.svg#logo-small" width="36" height="36"></use>
+          </svg>
         </a>
         <div class="header__buttons">
           <a class="header__button" href="#">Стать клиентом</a>
           <button class="header__button header__button--qr" type="button" aria-label="Скачать приложение">
             <svg class="header__icon" width="20" height="20" aria-hidden="true">
               <use xlink:href="images/sprite.svg#icon-qr"></use>
+            </svg>
+          </button>
+          <button class="header__burger" type="button" aria-label="Кнопка открытия меню">
+            <svg class="header__burger-icon" width="32" height="32" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-burger"></use>
             </svg>
           </button>
         </div>

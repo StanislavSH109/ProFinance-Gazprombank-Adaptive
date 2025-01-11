@@ -37,6 +37,10 @@
     justify-content: space-between;
     gap: 20px;
     padding: 19px 0;
+
+    @include vp-1439 {
+      padding: 13px 5px 13px 0;
+    }
   }
 
   &__logo {
@@ -50,13 +54,23 @@
   }
 
   &__logo-small {
-    display: none;;
+    display: none;
+    @include vp-1439 {
+      display: block;
+      width: 36px;
+      height: 36px;
+    }
   }
 
   &__buttons {
     display: flex;
     align-items: center;
     gap: 12px;
+
+    // @include vp-1439 {
+    //   gap: unset;
+    // }
+  
   }
 
   &__button {
@@ -85,6 +99,22 @@
       width: 40px;
       padding: 0;
       cursor: pointer;
+
+      @include vp-1439 {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__burger {
+    display: none;
+    
+    @include vp-1439 {
+      display: block;
+      background-color: unset;
+      border: none;
+      width: 32px;
+      height: 32px;
     }
   }
 }
