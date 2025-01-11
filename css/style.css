@@ -650,6 +650,16 @@ a {
 .sidebar__socials {
   margin: 0 0 24px 0;
 }
+@media (max-width: 1439px) {
+  .sidebar__socials {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .sidebar__socials {
+    display: none;
+  }
+}
 .sidebar__share {
   margin: 0 0 12px 0;
   color: #696E82;
@@ -657,11 +667,31 @@ a {
   line-height: 16px;
   display: block;
 }
+@media (max-width: 1439px) {
+  .sidebar__share {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .sidebar__share {
+    display: none;
+  }
+}
 .sidebar__copyright {
   margin: 0;
   color: #696E82;
   font-size: 13px;
   line-height: 16px;
+}
+@media (max-width: 1439px) {
+  .sidebar__copyright {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .sidebar__copyright {
+    display: none;
+  }
 }
 
 .pro-finance__wrapper {
