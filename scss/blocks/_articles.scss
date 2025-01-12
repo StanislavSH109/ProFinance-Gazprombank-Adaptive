@@ -27,5 +27,11 @@
         flex-direction: column;
       }
     }
+    
+    &:hover .card-news__overlay {
+      background-color: $color-black-alpha;
+      transition: background .2s ease-in, opacity 0.3s ease;
+      opacity: 1;
+    }
   }
 }

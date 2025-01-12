@@ -118,6 +118,22 @@
         margin-right: 10px;
       }
 
+      &:hover {
+        background-color: $color-blue-zodiac;
+      }
+
+      &:focus {
+        background-color: $color-blue-zodiac;
+        outline: none;
+      }
+    }
+    &:hover {
+      background-color: $color-blue-zodiac;
+    }
+
+    &:focus {
+      background-color: $color-blue-zodiac;
+      outline: none;
     }
   }
 

@@ -27,5 +27,14 @@
     @include vp-767 {
       display: none;
     }
+
+    &:hover {
+      color: $color-royal-blue;
+    }
+
+    &:focus {
+      color: $color-royal-blue;
+      outline: none;
+    }
   }
 }
