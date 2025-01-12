@@ -15,5 +15,18 @@
     height: 40px;
     border-radius: 50%;
     background-color: $color-solitude-1;
+    transition: .2s ease-in;
+
+    &:hover {
+      background-color: $color-quartz;
+      transition: .2s ease-in;
+    }
+
+    &:focus {
+      background-color: $color-quartz;
+      transition: .2s ease-in;
+      outline: none;
+    }
   }
+
 }

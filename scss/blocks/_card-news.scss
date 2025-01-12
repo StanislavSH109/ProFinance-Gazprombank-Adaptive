@@ -5,6 +5,16 @@
   border-radius: 16px;
   overflow: hidden;
 
+  &:hover {
+    .card-news__overlay {
+      opacity: 1;
+      background-color: $color-black-alpha;
+    }
+    .card-news__heading {
+      color: $color-royal-blue;
+    }
+  }
+  
   @include vp-767 {
     border-radius: unset;
   }
@@ -12,6 +22,18 @@
   &--size-xl {
     flex-direction: row;
     background: $color-solitude-2;
+    
+    &:hover {
+      .card-news__overlay {
+        border-radius: 16px 0 0 0;
+        opacity: 1;
+        background-color: $color-black-alpha;
+      }
+    }
+
+    img {
+      border-radius: 16px 0 0 0;
+    }
 
     @include vp-767 {
       flex-direction: column;
@@ -57,9 +79,8 @@
 
     &-text {
       color: $color-white;
-    
+    }
   }
-
   &__image {
     width: 100%;
     border-radius: 16px;
@@ -67,14 +88,13 @@
 
   &__content {
     padding: 20px 0 0;
-
   }
 
   &__info {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    margin: 0 0 16px 0;
+    margin: 0 0 16px;
     color: $color-storm-grey;
     font-size: 13px;
     font-weight: 500;
