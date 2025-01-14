@@ -559,6 +559,12 @@ a {
     gap: 16px 50px;
   }
 }
+@media (max-width: 767px) {
+  .categories__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .categories__link {
   outline: none;
   display: flex;
@@ -605,8 +611,11 @@ a {
   flex-direction: row;
   background: #F4F6FA;
 }
-.card-news--size-xl:hover .card-news__overlay {
+.card-news--size-xl .card-news__overlay {
   border-radius: 16px 0 0 0;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+.card-news--size-xl:hover .card-news__overlay {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
