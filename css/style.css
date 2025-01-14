@@ -791,6 +791,11 @@ a {
     align-items: center;
   }
 }
+@media (max-width: 767px) {
+  .sidebar {
+    margin: 0 0 50px;
+  }
+}
 .sidebar__heading {
   margin: 0 0 24px 0;
   font-size: 32px;
@@ -855,7 +860,7 @@ a {
 }
 @media (max-width: 767px) {
   .sidebar__categories {
-    margin: 0;
+    display: none;
   }
 }
 .sidebar__socials {
